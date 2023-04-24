@@ -1,0 +1,18 @@
+{
+    "top": {
+        "image": "data/plane/images/airplane_1.png",
+        "matrix": [[1.0, 0.0, 0.0], [0.0, 0.0, -1.0], [0.0, 1.0, 0.0]]
+    },
+    "left": {
+        "image": "data/plane/images/airplane_2.png",
+        "matrix": [[0.0, 0.0, 1.0], [0.0, 1.0, 0.0], [-1.0, 0.0, 0.0]]
+    },
+    "front": {
+        "image": "data/plane/images/airplane_3.png",
+        "matrix": [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]]
+    },
+    "right": {
+        "image": "data/plane/images/airplane_4.png",
+        "matrix": [[0.0, 0.0, -1.0], [0.0, 1.0, 0.0], [1.0, 0.0, 0.0]]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "bottom": {
+        "image": "data/abstract/images/abstract_1.png",
+        "matrix": [[1.0, 0.0, 0.0], [0.0, 0.0, 1.0], [0.0, -1.0, 0.0]]
+    },
+    "front": {
+        "image": "data/abstract/images/abstract_2.png",
+        "matrix": [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]]
+    },
+    "top": {
+        "image": "data/abstract/images/abstract_3.png",
+        "matrix": [[1.0, 0.0, 0.0], [0.0, 0.0, -1.0], [0.0, 1.0, 0.0]]
+    },
+    "side": {
+        "image": "data/abstract/images/abstract_4.png",
+        "matrix": [[0.0, 0.0, -1.0], [0.0, 1.0, 0.0], [1.0, 0.0, 0.0]]
+    }
+}

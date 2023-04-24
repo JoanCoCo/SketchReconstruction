@@ -1,0 +1,21 @@
+{
+    "arguments": [
+        "-i 1700",
+        "-f 4",
+        "--samples-folder", "data/plane/images",
+        "--samples-prefix", "plane_", 
+        "--checkpoints-folder", "checkpoints/plane_wild/", 
+        "--mesh", "data/plane/meshes/profile.obj", 
+        "--steps-folder", "out/plane/steps",
+        "--saving-interval", "50", 
+        "--output-folder", "out/plane/result",
+        "--output-name", "plane", 
+        "--texture-refinement-steps", "100", 
+        "--texture-samples", "20",
+        "--load-checkpoint", "1",
+        "--longtail", "1500",
+        "--remeshing-interval", "0",
+        "--views", "data/plane/views/views.json",
+        "--flip-normals", "1"
+    ]
+}

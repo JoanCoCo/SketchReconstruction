@@ -1,0 +1,21 @@
+{
+    "arguments": [
+        "-i 1700",
+        "-f 4",
+        "--samples-folder", "data/jar/images",
+        "--samples-prefix", "jar_", 
+        "--checkpoints-folder", "checkpoints/jar_wild/", 
+        "--mesh", "data/jar/meshes/profile.obj", 
+        "--steps-folder", "out/jar/steps",
+        "--saving-interval", "50", 
+        "--output-folder", "out/jar/result",
+        "--output-name", "jar", 
+        "--texture-refinement-steps", "100", 
+        "--texture-samples", "20",
+        "--load-checkpoint", "1",
+        "--longtail", "1500",
+        "--remeshing-interval", "0",
+        "--views", "data/jar/views/views.json",
+        "--flip-normals", "1"
+    ]
+}

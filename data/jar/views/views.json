@@ -1,0 +1,18 @@
+{
+    "back": {
+        "image": "data/jar/images/jar_1.png",
+        "matrix": [[-1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, -1.0]]
+    },
+    "top": {
+        "image": "data/jar/images/jar_2.png",
+        "matrix": [[1.0, 0.0, 0.0], [0.0, 0.0, -1.0], [0.0, 1.0, 0.0]]
+    },
+    "side": {
+        "image": "data/jar/images/jar_3.png",
+        "matrix": [[0.0, 0.0, 1.0], [0.0, 1.0, 0.0], [-1.0, 0.0, 0.0]]
+    },
+    "front": {
+        "image": "data/jar/images/jar_4.png",
+        "matrix": [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]]
+    }
+}

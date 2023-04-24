@@ -1,0 +1,21 @@
+{
+    "arguments": [
+        "-i 1700",
+        "-f 4",
+        "--samples-folder", "data/shrimp/images",
+        "--samples-prefix", "shrimp_", 
+        "--checkpoints-folder", "checkpoints/shrimp_wild_r/", 
+        "--mesh", "data/shrimp/meshes/profile.obj", 
+        "--steps-folder", "out/shrimp_r/steps",
+        "--saving-interval", "50", 
+        "--output-folder", "out/shrimp_r/result",
+        "--output-name", "shrimp", 
+        "--texture-refinement-steps", "100", 
+        "--texture-samples", "20",
+        "--load-checkpoint", "1",
+        "--longtail", "1500",
+        "--remeshing-interval", "100",
+        "--views", "data/shrimp/views/views.json",
+        "--flip-normals", "1"
+    ]
+}

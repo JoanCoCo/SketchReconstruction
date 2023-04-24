@@ -1,0 +1,18 @@
+{
+    "front": {
+        "image": "data/shrimp/images/shrimp_1.png",
+        "matrix": [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]]
+    },
+    "side": {
+        "image": "data/shrimp/images/shrimp_2.png",
+        "matrix": [[0.0, 0.0, -1.0], [0.0, 1.0, 0.0], [1.0, 0.0, 0.0]]
+    },
+    "back": {
+        "image": "data/shrimp/images/shrimp_3.png",
+        "matrix": [[-1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, -1.0]]
+    },
+    "top": {
+        "image": "data/shrimp/images/shrimp_4.png",
+        "matrix": [[1.0, 0.0, 0.0], [0.0, 0.0, -1.0], [0.0, 1.0, 0.0]]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "arguments": [
+        "-i 1700",
+        "-f 4",
+        "--samples-folder", "data/abstract_2/images",
+        "--samples-prefix", "abstract_", 
+        "--checkpoints-folder", "checkpoints/abstract_2_wild_r/", 
+        "--mesh", "data/abstract_2/meshes/profile.obj", 
+        "--steps-folder", "out/abstract_2_r/steps",
+        "--saving-interval", "50", 
+        "--output-folder", "out/abstract_2_r/result",
+        "--output-name", "abstract_2", 
+        "--texture-refinement-steps", "100", 
+        "--texture-samples", "20",
+        "--load-checkpoint", "1",
+        "--longtail", "1500",
+        "--remeshing-interval", "100",
+        "--views", "data/abstract_2/views/views.json",
+        "--flip-normals", "1"
+    ]
+}
